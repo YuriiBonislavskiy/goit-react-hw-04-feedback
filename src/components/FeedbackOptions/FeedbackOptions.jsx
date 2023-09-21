@@ -3,6 +3,7 @@ import css from './FeedbackOptions.module.css';
 import { capitalize } from 'utils';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+
   return options.map(option => (
     <button
       type="button"
